@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #2f5d47;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.logo a:hover {
+    text-decoration: none; 
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+
+
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto; 
+    
+
+}
+
+.login-btn,
+.get-started-btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.login-btn:hover,
+.get-started-btn:hover {
+    background-color: #4c8f68;
+}
+
+.get-started-btn {
+    background-color: #ffffff;
+    color: #2f5d47;
+}
+
+
+.get-started {
+    background-color: #fff;
+    color: #1b2d26;
+    border: none;
+}
+/* Support Section */
+.support-main {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.support-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.option {
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #ebebeb;
+}
+
+.option .icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.option h3 {
+    color: #d35b5b;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.option p {
+    color: #555;
+}
+
+/* Emergency Section */
+.emergency-section {
+    margin-top: 3rem;
+    text-align: left;
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+.emergency-section h2 {
+    color: #286bdb;
+}
+
+.emergency-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.emergency-list li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.emergency-list .code {
+    font-weight: bold;
+    color: #d35b5b;
+    margin-right: 10px;
+}
+
+/* Chat Support */
+.chat-support {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-support p {
+    margin: 0;
+}
+
+.chat-icon {
+    font-size: 2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2f5d47;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}

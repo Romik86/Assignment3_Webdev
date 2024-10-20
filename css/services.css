@@ -1,0 +1,178 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e4d3b;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+/* Header */
+header {
+    background-color: #2f5d47;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Ensures the link inherits the logo's color */
+}
+
+.logo a:hover {
+    text-decoration: none; /* Ensures underline doesn't appear on hover */
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto; /* Ensures the buttons are pushed to the far right */
+}
+
+.login-btn,
+.get-started-btn {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1rem;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.login-btn:hover,
+.get-started-btn:hover {
+    background-color: #4c8f68;
+}
+
+.get-started-btn {
+    background-color: #ffffff;
+    color: #2f5d47;
+}
+
+
+.login-btn:hover,
+.get-started-btn:hover {
+    background-color: #4c8f68;
+}
+
+.get-started-btn {
+    background-color: #ffffff;
+    color: #2f5d47;
+}
+
+/* Services Section */
+.services {
+    padding: 3rem 4rem;
+    background-color: #2e4d3b;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service-intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.service-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.service-column {
+    flex: 1;
+    background-color: #354f3e;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+.service-column a {
+    color: #ffffff; 
+}
+
+.service-column a:hover {
+    text-decoration: underline; 
+}
+
+
+.service-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-column li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-column a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2f5d47;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer address {
+    margin: 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #ffffff;
+}
